@@ -1,6 +1,6 @@
 # Registry Cleaner
 
-![https://hub.docker.com/r/jiankaiwang/registry-cleaner](https://img.shields.io/static/v1?label=docker_build&message=passing&color=success)
+[![https://hub.docker.com/r/jiankaiwang/registry-cleaner](https://img.shields.io/static/v1?label=docker_build&message=passing&color=success)](https://hub.docker.com/r/jiankaiwang/registry-cleaner)
 
 Build an automatic cleaner for the docker registry.
 
