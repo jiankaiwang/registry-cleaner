@@ -1,3 +1,6 @@
-#/sh
+#/bin/bash
 
-/cron/registry garbage-collect /etc/docker/registry/gc.yaml > /tmp/clean_registry.log
+logFile=/tmp/clean_registry.log
+
+echo $(date) > $logFile
+/cron/registry garbage-collect /etc/docker/registry/gc.yaml >> $logFile
